@@ -1,0 +1,7 @@
+As a Customer
+I want The Restaurant's Menu
+So that I can decide if I want eat there
+
+As a Customer
+I want to book a table
+So I can make sure i can eat there
