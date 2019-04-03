@@ -8,16 +8,15 @@
     <title>Macademia</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato" rel="stylesheet">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/main.css">
 
   </head>
   <body>
       <header>
         <nav class="navbar">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburgercontainer" onclick="animatedHamburger(this)">
+          <button id="hamburgerBTN" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburgercontainer">
               <div class="bar1"></div>
               <div class="bar2"></div>
               <div class="bar3"></div>
@@ -74,12 +73,16 @@
       </section>
       <section id="mainPageMenuDiv">
         <h3>Explore our Menu</h3>
-        <button class="btn rounded center-block" type="button">View our menu</button>
+        <div class="text-center">
+          <a href="#"><button class="btn rounded center-block" type="button">View our menu</button></a>  
+        </div>
       </section>
       <section id="mainPageBooking">
         <h3>Book a Table</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In ante metus dictum at tempor. Velit dignissim sodales ut eu.</p>
-        <button class="btn rounded center-block" type="button">Book a Table Here</button>
+        <div class="text-center">
+          <a href="#"><button class="btn rounded center-block" type="button">Book a Table Here</button></a>
+        </div>
       </section>
       <section id="deals">
         <div class="container">
@@ -119,21 +122,28 @@
       <footer>
         <p id="social-media">Follow us on our social media</p>
         <div id="social-media-icons">
-          <ion-icon name="logo-facebook"></ion-icon>
-          <ion-icon name="logo-twitter"></ion-icon>
-          <ion-icon name="logo-instagram"></ion-icon>
+          <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+
         </div>
         <hr />
         <p id="quick-links"><a href="#" target="_blank">Contact</a> | <a href="#" target="_blank">Recruitment</a> | <a href="#" target="_blank">Franchising</a> | <a href="#" target="_blank">Privacy Policy</a> | <a href="#" target="_blank">Accessibility</a> |  <a href="#" target="_blank">Modern Slavery Act</a></p>
       </footer>
-      <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript">
-      function animatedHamburger(x) {
-        x.classList.toggle("change");
-      }
+
+    hamBTN = document.getElementById('hamburgerBTN');
+    hamBTNBars = hamBTN.children[0].children;
+
+    hamBTN.addEventListener("click", function() {
+      hamBTNBars[0].classList.toggle('change');
+      hamBTNBars[1].classList.toggle('change');
+      hamBTNBars[2].classList.toggle('change');
+    });
     </script>
   </body>
 </html>

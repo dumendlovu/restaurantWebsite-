@@ -34,46 +34,47 @@ body header nav .hamburgercontainer .bar1, body header nav .hamburgercontainer .
   width: 35px;
 }
 
-/* line 38, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 37, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body header nav .hamburgercontainer .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
 }
 
-/* line 42, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 41, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body header nav .hamburgercontainer .change .bar2 {
   opacity: 0;
 }
 
-/* line 43, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 42, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body header nav .hamburgercontainer .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
-/* line 51, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 49, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body section {
   padding: 20px;
 }
 
-/* line 53, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 51, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body section h3 {
   text-align: center;
 }
 
-/* line 56, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 54, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body section button {
+  border: #F3EFF5 1px solid !important;
   background-color: #605B56 !important;
   color: #F3EFF5 !important;
   margin: 20px auto;
 }
 
-/* line 62, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 61, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #mainPageMenuDiv {
   background-color: #837A75;
 }
 
-/* line 65, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 64, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #mainPageBooking {
   background-color: #cccccc;
   background-image: url("../selected/booking.jpg");
@@ -81,64 +82,64 @@ body #mainPageBooking {
   background-size: 100% 100%;
 }
 
-/* line 70, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 69, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #mainPageBooking p {
   font-weight: 200;
   text-align: center;
 }
 
-/* line 76, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 75, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #deals h3 {
   color: #2F4B26 !important;
 }
 
-/* line 79, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 78, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #deals .inner-grid {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-/* line 83, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 82, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #deals .inner-grid .column img {
   padding: 5%;
 }
 
-/* line 89, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 88, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer {
   background-color: #2F4B26;
   color: #F3EFF5;
   padding: 3%;
 }
 
-/* line 93, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 92, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer p {
   font-size: 16px;
   text-align: center;
 }
 
-/* line 96, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 95, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer p a {
   color: #F3EFF5;
 }
 
-/* line 100, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 99, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer hr {
   border-color: #F3EFF5;
   border-width: medium;
   width: 75%;
 }
 
-/* line 105, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 104, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer #social-media-icons {
   text-align: center;
 }
 
-/* line 107, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 106, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer #social-media-icons ion-icon {
   font-size: 32px;
 }
 
-/* line 111, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 110, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer #quick-links {
   font-size: 12px;
 }
