@@ -29,12 +29,14 @@ body{
 
         .bar1, .bar2, .bar3 {
           background-color: $lime;
+          display: block;
           height: 5px;
           margin: 6px 0;
           transition: 0.4s;
           width: 35px;
         }
         .change .bar1 {
+          -ms-transform: rotate(-45deg) translate(-9px, 6px);
           -webkit-transform: rotate(-45deg) translate(-9px, 6px);
           transform: rotate(-45deg) translate(-9px, 6px);
         }
@@ -49,7 +51,11 @@ body{
   section{
     padding: 20px;
     h3{
-      text-align: center;
+      font-size: 24px;
+      text-align: center !important;
+    }
+    p{
+      font-size: 12px;
     }
     button{
       border: $pureWhite 1px solid !important;
@@ -68,6 +74,7 @@ body{
     background-size: 100% 100%;
     p{
       font-weight: 200;
+      margin: 30px auto;
       text-align: center;
     }
   }
@@ -90,11 +97,11 @@ body{
     color: $pureWhite;
     padding: 3%;
     p{
-      font-size: 16px;
+      font-size: 8px;
       text-align: center;
-      a{
-        color: $pureWhite;
-      }
+    }
+    a{
+      color: $pureWhite;
     }
     hr{
       border-color: $pureWhite;
@@ -109,6 +116,75 @@ body{
     }
     #quick-links{
       font-size: 12px;
+    }
+  }
+}
+
+@media only screen and (min-device-width : 600px){
+  body{
+    section{
+      h3{
+        font-size: 28px;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+    #caraSlides{
+      padding: 0;
+    }
+    #mainPageBooking{
+      #mainPageMenuDivContent{
+        display: inline-block;
+        min-height: 35vh;
+        padding: 2%;
+        p{
+          margin: 50px 5%;
+        }
+      }
+    }
+    footer{
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media only screen and (min-device-width : 750px){
+  body{
+    section{
+      h3{
+        font-size: 40px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+    #mainPageBooking{
+      min-height: 50vh;
+    }
+    footer{
+      p{
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media only screen and (min-device-width : 900px){
+  body{
+    section{
+      h3{
+        font-size: 40px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+    #mainPageMenuDiv{
+      min-height: 20vh;
+    }
+    #mainPageBooking{
+      min-height: 70vh;
     }
   }
 }
