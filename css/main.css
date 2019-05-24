@@ -86,137 +86,131 @@ body #mainPageMenuDiv {
 body #mainPageBooking {
   background-color: #cccccc;
   background-image: url("../selected/booking.jpg");
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 120% auto;
 }
 
-/* line 75, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 76, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #mainPageBooking p {
   font-weight: 200;
   margin: 30px auto;
   text-align: center;
 }
 
-/* line 82, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 83, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #deals h3 {
   color: #2F4B26 !important;
 }
 
-/* line 85, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 86, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #deals .inner-grid {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-/* line 89, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 90, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body #deals .inner-grid .column img {
   padding: 5%;
 }
 
-/* line 95, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 96, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer {
   background-color: #2F4B26;
   color: #F3EFF5;
   padding: 3%;
 }
 
-/* line 99, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 100, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer p {
   font-size: 8px;
   text-align: center;
 }
 
-/* line 103, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 104, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer a {
   color: #F3EFF5;
 }
 
-/* line 106, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 107, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer hr {
   border-color: #F3EFF5;
   border-width: medium;
   width: 75%;
 }
 
-/* line 111, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 112, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer #social-media-icons {
   text-align: center;
 }
 
-/* line 113, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 114, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer #social-media-icons ion-icon {
   font-size: 32px;
 }
 
-/* line 117, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+/* line 118, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
 body footer #quick-links {
   font-size: 12px;
 }
 
 @media only screen and (min-device-width: 600px) {
-  /* line 126, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 127, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body section h3 {
     font-size: 28px;
   }
-  /* line 129, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 130, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body section p {
     font-size: 14px;
   }
-  /* line 133, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 134, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body #caraSlides {
     padding: 0;
   }
-  /* line 137, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 138, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body #mainPageBooking #mainPageMenuDivContent {
     display: inline-block;
-    min-height: 35vh;
+    min-height: 20vh;
     padding: 2%;
+    align-items: center;
   }
-  /* line 141, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 143, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body #mainPageBooking #mainPageMenuDivContent p {
-    margin: 50px 5%;
+    margin: 50px 0;
   }
-  /* line 147, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 149, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body footer p {
     font-size: 16px;
   }
 }
 
 @media only screen and (min-device-width: 750px) {
-  /* line 156, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 158, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body section h3 {
     font-size: 40px;
   }
-  /* line 159, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 161, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body section p {
     font-size: 18px;
   }
-  /* line 163, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
-  body #mainPageBooking {
-    min-height: 50vh;
-  }
-  /* line 167, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 166, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body footer p {
     font-size: 20px;
   }
 }
 
 @media only screen and (min-device-width: 900px) {
-  /* line 176, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 175, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body section h3 {
     font-size: 40px;
   }
-  /* line 179, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 178, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body section p {
     font-size: 18px;
   }
-  /* line 183, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
+  /* line 182, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
   body #mainPageMenuDiv {
     min-height: 20vh;
-  }
-  /* line 186, /Users/dumezwenindlovu/_Web_Dev_Projects/restaurantWebsite-/sass/main.scss */
-  body #mainPageBooking {
-    min-height: 70vh;
   }
 }
 
